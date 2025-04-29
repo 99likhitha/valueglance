@@ -39,7 +39,7 @@ function App() {
 
 {error && (
   <div className="text-center text-red-500">
-    {error}
+    {/* {error} */}
     <button
       onClick={() => window.location.reload()}
       className="ml-4 text-blue-600 underline"
